@@ -1,0 +1,382 @@
+
+
+.warp {
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+}
+
+.header-container {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(200, 0, 0, 0);
+    height: 40px;
+}
+
+.icon-logo {
+    background-position: 0 -104px;
+    display: block;
+    width: 56px;
+    height: 36px;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+}
+
+.header .search {
+    padding-left: 75px;
+    padding-right: 60px;
+    padding-top: 4px;
+    position: relative;
+}
+
+.header .search input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px 15px;
+    padding-left: 35px;
+}
+
+.header .search span {
+    display: block;
+    background-position: -56px -104px;
+    width: 28px;
+    height: 36px;
+
+    position: absolute;
+    top: 4px;
+    left: 80px;
+
+}
+
+.header .login {
+    display: block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 15px;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*轮播图*/
+.carousel {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-img {
+    width: 1000%;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
+}
+.carousel .curr{
+    background-color: #fff;
+}
+
+.carousel-img li {
+    /*1/8=0.125 8等分*/
+    width: 10%;
+
+    float: left;
+}
+
+.carousel-img li img {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.carousel .ctal {
+    height: 6px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -64px;
+}
+
+.carousel .ctal li {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*导航*/
+.nav {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+.nav ul {
+    width: 100%;
+
+}
+
+.nav ul li {
+    /*1/4=0.25 4等分*/
+    width: 25%;
+    float: left;
+    height: 69px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.nav ul li img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav ul li p {
+    margin-top: 5px;
+}
+
+/*秒杀专区*/
+.kill {
+    margin-top: 15px;
+}
+
+.width-fix {
+    width: 100%;
+    background-color: #fff;
+}
+
+.kill-s-kill-top {
+    height: 32px;
+    padding: 0 15px;
+}
+
+.kill .mm {
+    float: left;
+}
+
+.kill .mm .sk-icon {
+    display: block;
+    background: url("../images/seckill-icon.png") no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+    float: left;
+    margin-top: 6px;
+}
+
+.kill-s-kill-top h3 {
+    float: left;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 100;
+    color: red;
+}
+
+.kill-s-kill-top span {
+    display: block;
+    float: left;
+}
+
+.kill-s-kill-top-ms {
+    float: left;
+    padding-top: 8px;
+}
+
+.kill-s-kill-top .num {
+    width: 15px;
+    height: 15px;
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 3px;
+}
+
+.kill-s-kill-top .str {
+    margin-left: 3px;
+    line-height: 15px;
+}
+
+.kill-a {
+    float: right;
+
+}
+
+.kill-s-kill a {
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.kill-s-kill-bottom {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.kill-s-kill-bottom .l {
+    width: 33.333%;
+    float: left;
+}
+
+.kill-s-kill-bottom img {
+    display: block;
+    width: 64%;
+    margin: 0 auto;
+}
+
+.kill-s-kill-bottom .red {
+    color: #d8505c;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.kill-s-kill-bottom .black {
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-top: 3px;
+    text-align: center;
+    color: #888;
+}
+
+/*
+.kill-s-kill-bottom .computer + .computer{
+    border-left: 1px solid #CCCCCC;
+}
+*/
+
+.kill-s-kill-bottom .m {
+    width: 33.333%;
+    float: left;
+}
+
+.kill-s-kill-bottom .m .computer {
+    border-left: 1px solid #eee;
+}
+
+.kill-s-kill-bottom .r {
+    width: 33.333%;
+    float: left;
+}
+
+.kill-s-kill-bottom .r .computer {
+    border-left: 1px solid #eee;
+}
+
+/*超值购物*/
+.kill-spu-shopping {
+    margin-top: 15px;
+}
+
+.kill-spu-shopping-top {
+    height: 32px;
+    border-bottom: 1px solid #eee;
+}
+
+.kill-spu-shopping-top li {
+    float: left;
+}
+
+.kill-spu-shopping-top .first {
+    width: 4px;
+    height: 12px;
+    background-color: rgba(200, 0, 0, 0.75);
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.kill-spu-shopping-top p {
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.kill-spu-shopping-top ul {
+    margin-left: 10px;
+}
+
+.kill-spu-shopping-bottom {
+    border-bottom: 1px solid #eeeeee;
+    background-color: #fff;
+}
+.kill-spu-shopping-bottom .left {
+    width: 50%;
+    border-right: 1px solid #ccc;
+
+}
+
+.kill-spu-shopping-bottom .left img {
+    display: block;
+    width: 100%;
+}
+
+.kill-spu-shopping-bottom .right {
+    width: 50%;
+}
+
+.kill-spu-shopping-bottom .right img {
+    display: block;
+    width: 100%
+}
+.kill-spu-shopping-bottom .right .first {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/*热么活动*/
+.kill-hot {
+    margin-top: 15px;
+    background-color: #fff;
+}
+.kill-hot-top {
+    height: 32px;
+    padding-left: 10px;
+}
+.kill-hot-top li {
+    float: left;
+    line-height: 32px;
+}
+.kill-hot .first {
+    width: 4px;
+    height: 12px;
+    background-color: rgba(200, 0, 0, 0.75);
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.kill-hot-bottom .fl,
+.kill-hot-bottom .fr {
+    width: 50%;
+}
+
+.kill-hot-bottom .fl .kill-hot-first img{
+    width: 100%;
+    display: block;
+}
+.kill-hot-bottom .fl .kill-hot-second img{
+    display: block;
+    width: 100%;
+}
+.kill-hot-bottom .fr img {
+    display: block;
+    width: 100%;
+}
